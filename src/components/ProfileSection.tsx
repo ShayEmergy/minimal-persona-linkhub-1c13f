@@ -18,7 +18,9 @@ const ProfileSection = ({ data }: ProfileSectionProps) => {
       </Avatar>
       <h1 className="mt-6 text-3xl md:text-4xl font-bold tracking-tight">{data.name}</h1>
       <p className="mt-2 text-lg text-muted-foreground">{data.title}</p>
-      <p className="mt-4 max-w-lg text-muted-foreground">{data.bio}</p>
+      <p className="mt-4 max-w-2xl text-muted-foreground leading-relaxed mx-auto">
+        {data.bio}
+      </p>
     </section>
   );
 };

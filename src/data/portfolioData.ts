@@ -100,30 +100,6 @@ export const blogPosts: ContentItem[] = [
     url: "https://medium.com/riskified-technology/consistent-monitoring-the-gitops-way-1d481e9965c9",
     date: "April 2022",
   },
-  {
-    id: "post-3",
-    title: "Optimizing Performance in Large React Applications",
-    url: "https://example.com/blog/react-performance",
-    date: "October 2024",
-  },
-  {
-    id: "post-4",
-    title: "The Art of Technical Writing",
-    url: "https://example.com/blog/technical-writing",
-    date: "September 2024",
-  },
-  {
-    id: "post-5",
-    title: "My Journey into Open Source",
-    url: "https://example.com/blog/open-source-journey",
-    date: "August 2024",
-  },
-  {
-    id: "post-6",
-    title: "Building Resilient Design Systems",
-    url: "https://example.com/blog/design-systems",
-    date: "July 2024",
-  },
 ];
 
 export const podcasts: ContentItem[] = [
