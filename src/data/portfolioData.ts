@@ -15,10 +15,10 @@ export interface ProfileData {
 }
 
 export const profileData: ProfileData = {
-  name: "Jane Doe",
-  title: "Software Engineer & Speaker",
-  bio: "Building digital experiences with a focus on accessibility and user-centered design. Based in San Francisco.",
-  avatarUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&auto=format&fit=crop&q=80",
+  name: "Lior Lieberman",
+  title: "Software Engineering Lead",
+  bio: "I am an experienced engineer specializing in Kubernetes and Cloud Native platforms. I master reliability and value good design. I have vast experience working with and contributing to Kubernetes, doing observability work and developing cloud applications.",
+  avatarUrl: "/lovable-uploads/bc3389a1-5510-49ef-8f13-5db134e519f1.png",
 };
 
 export const talks: ContentItem[] = [
