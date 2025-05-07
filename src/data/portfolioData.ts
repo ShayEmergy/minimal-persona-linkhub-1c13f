@@ -17,31 +17,31 @@ export interface ProfileData {
 export const profileData: ProfileData = {
   name: "Lior Lieberman",
   title: "Software Engineering Lead",
-  bio: "I am an experienced engineer specializing in Kubernetes and Cloud Native platforms. I master reliability and value good design. I have vast experience working with and contributing to Kubernetes, doing observability work and developing cloud applications.",
+  bio: "Hey, I'm Lior, a senior engineer passionate about Kubernetes and Cloud Native platforms. I build reliable, well-designed systems, contribute to core Kubernetes projects, and develop observability tools. I mentor startups and dev teams worldwide on scaling platforms, optimizing cloud deployments, and improving cost efficiency. I'm driven by entrepreneurship and leadership, and I thrive collaborating with talented teams. This site is a home for my projects and insights.",
   avatarUrl: "/lovable-uploads/bc3389a1-5510-49ef-8f13-5db134e519f1.png",
 };
 
 export const talks: ContentItem[] = [
   {
     id: "talk-1",
-    title: "The Future of Frontend Development",
-    url: "https://example.com/talks/future-frontend",
-    date: "November 2024",
-    description: "A deep dive into emerging technologies shaping frontend development.",
+    title: "Encryption, Identities, and Everything in Between; Building Secure Kubernetes Networks",
+    url: "https://www.youtube.com/watch?v=Q15XbASxHM0",
+    date: "April 2025",
+    description: "A deep dive into Kubernetes network security approaches and implementations.",
   },
   {
     id: "talk-2",
-    title: "Designing for Accessibility",
-    url: "https://example.com/talks/accessibility",
-    date: "September 2024",
-    description: "Making the web more inclusive through accessible design patterns.",
+    title: "Architecting Istio for Large-Scale Deployments: R&D and Service Mesh Grow Together",
+    url: "https://www.youtube.com/watch?v=GNi9ZJFuups",
+    date: "April 2025",
+    description: "Strategies for scaling service mesh architecture in enterprise environments.",
   },
   {
     id: "talk-3",
-    title: "React in 2025",
-    url: "https://example.com/talks/react-2025",
-    date: "July 2024",
-    description: "Exploring the evolution of React and its ecosystem.",
+    title: "Towards a Standardized identity-based Authorization in Kubernetes",
+    url: "https://www.youtube.com/watch?v=8JX0PUX-znQ",
+    date: "March 2025",
+    description: "Exploring the future of identity management and authorization in Kubernetes.",
   },
 ];
 
@@ -75,20 +75,14 @@ export const blogPosts: ContentItem[] = [
 export const podcasts: ContentItem[] = [
   {
     id: "podcast-1",
-    title: "JavaScript Today - Episode 42",
-    url: "https://example.com/podcasts/js-today-42",
-    date: "November 2024",
+    title: "Kubernetes Ingress & Gateway API Updates, with Lior Lieberman",
+    url: "https://kubernetespodcast.com/episode/248-gateway-updates/",
+    date: "March 2025",
   },
   {
     id: "podcast-2",
-    title: "Web Development Happy Hour - Career Paths",
-    url: "https://example.com/podcasts/web-dev-happy-hour",
-    date: "October 2024",
-  },
-  {
-    id: "podcast-3",
-    title: "The Frontend Podcast - UX Engineering",
-    url: "https://example.com/podcasts/frontend-podcast",
-    date: "September 2024",
+    title: "The future of Kubernetes: From Gateway API to AI integration",
+    url: "https://kube.fm/gateway-api-to-api-lior",
+    date: "March 2025",
   },
 ];
