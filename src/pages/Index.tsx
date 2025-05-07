@@ -1,11 +1,45 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from "react";
+import ProfileSection from "@/components/ProfileSection";
+import ContentSection from "@/components/ContentSection";
+import { profileData, talks, blogPosts, podcasts } from "@/data/portfolioData";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="min-h-screen">
+      <div className="max-w-4xl mx-auto">
+        <ProfileSection data={profileData} />
+        
+        <div className="border-t border-border">
+          <ContentSection 
+            title="Talks" 
+            type="talk" 
+            items={talks} 
+            id="talks"
+          />
+        </div>
+        
+        <div className="border-t border-border">
+          <ContentSection 
+            title="Blog Posts" 
+            type="blog" 
+            items={blogPosts} 
+            id="blog"
+          />
+        </div>
+        
+        <div className="border-t border-border">
+          <ContentSection 
+            title="Podcasts" 
+            type="podcast" 
+            items={podcasts} 
+            id="podcasts"
+          />
+        </div>
+        
+        <footer className="py-12 px-4 text-center text-sm text-muted-foreground">
+          <p>© {new Date().getFullYear()} Jane Doe. All rights reserved.</p>
+        </footer>
       </div>
     </div>
   );
