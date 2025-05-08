@@ -5,14 +5,14 @@ import { cn } from "@/lib/utils";
 
 interface ContentItemProps {
   item: ContentItemType;
-  type: "talk" | "blog" | "podcast";
+  type: "talk" | "blog" | "audio";
 }
 
 const ContentItem = ({ item, type }: ContentItemProps) => {
   const icons = {
     talk: <ExternalLink className="h-4 w-4 opacity-70" />,
     blog: <ExternalLink className="h-4 w-4 opacity-70" />,
-    podcast: <ExternalLink className="h-4 w-4 opacity-70" />,
+    audio: <ExternalLink className="h-4 w-4 opacity-70" />,
   };
 
   return (

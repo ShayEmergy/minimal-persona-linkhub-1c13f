@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 
 interface ContentSectionProps {
   title: string;
-  type: "talk" | "blog" | "podcast";
+  type: "talk" | "blog" | "audio";
   items: ContentItemType[];
   id: string;
 }
@@ -15,7 +15,7 @@ const ContentSection = ({ title, type, items, id }: ContentSectionProps) => {
   const icons = {
     talk: <MessageCircle className="h-5 w-5" />,
     blog: <BookText className="h-5 w-5" />,
-    podcast: <Mic className="h-5 w-5" />,
+    audio: <Mic className="h-5 w-5" />,
   };
 
   return (

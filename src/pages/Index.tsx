@@ -2,7 +2,7 @@
 import React from "react";
 import ProfileSection from "@/components/ProfileSection";
 import ContentSection from "@/components/ContentSection";
-import { profileData, talks, blogPosts, audio } from "@/data/portfolioData";
+import { profileData, talks, writing, audio } from "@/data/portfolioData";
 
 const Index = () => {
   return (
@@ -21,9 +21,9 @@ const Index = () => {
         
         <div className="border-t border-border">
           <ContentSection 
-            title="Blog Posts" 
+            title="Writing" 
             type="blog" 
-            items={blogPosts} 
+            items={writing} 
             id="blog"
           />
         </div>
@@ -31,7 +31,7 @@ const Index = () => {
         <div className="border-t border-border">
           <ContentSection 
             title="Audio" 
-            type="podcast" 
+            type="audio" 
             items={audio} 
             id="audio"
           />

@@ -17,7 +17,7 @@ export interface ProfileData {
 export const profileData: ProfileData = {
   name: "Lior Lieberman",
   title: "Software Engineering Lead",
-  bio: "Hey, I'm Lior, a senior engineer passionate about Kubernetes and Cloud Native platforms. I build reliable, well-designed systems, contribute to core Kubernetes projects, and develop observability tools. I mentor startups and dev teams worldwide on scaling platforms, optimizing cloud deployments, and improving cost efficiency. I'm driven by entrepreneurship and leadership, and I thrive collaborating with talented teams. This site is a home for my projects and insights.",
+  bio: "Hey, I'm Lior, an experienced engineering lead specializing in Kubernetes and Cloud Native platforms. I lead initiatives across AI, networking, and security to build reliable, scalable systems. Alongside my technical work, I mentor startups and development teams worldwide, providing them advice in R&D growth, platform scalability, and optimized cloud infrastructure. I am passionate about entrepreneurship, leadership and development initiatives and get inspired by working with talented people. This is the central hub for some of the work I've written, presented, or been interviewed for",
   avatarUrl: "/lovable-uploads/bc3389a1-5510-49ef-8f13-5db134e519f1.png",
 };
 
@@ -87,7 +87,22 @@ export const talks: ContentItem[] = [
   },
 ];
 
-export const blogPosts: ContentItem[] = [
+export const audio: ContentItem[] = [
+  {
+    id: "audio-1",
+    title: "Kubernetes Ingress & Gateway API Updates, with Lior Lieberman",
+    url: "https://kubernetespodcast.com/episode/248-gateway-updates/",
+    date: "March 2025",
+  },
+  {
+    id: "audio-2",
+    title: "The future of Kubernetes: From Gateway API to AI integration",
+    url: "https://kube.fm/gateway-api-to-api-lior",
+    date: "March 2025",
+  },
+];
+
+export const writing: ContentItem[] = [
   {
     id: "post-1",
     title: "Introducing ingress2gateway; Simplifying Upgrades to Gateway API",
@@ -102,17 +117,3 @@ export const blogPosts: ContentItem[] = [
   },
 ];
 
-export const audio: ContentItem[] = [
-  {
-    id: "podcast-1",
-    title: "Kubernetes Ingress & Gateway API Updates, with Lior Lieberman",
-    url: "https://kubernetespodcast.com/episode/248-gateway-updates/",
-    date: "March 2025",
-  },
-  {
-    id: "podcast-2",
-    title: "The future of Kubernetes: From Gateway API to AI integration",
-    url: "https://kube.fm/gateway-api-to-api-lior",
-    date: "March 2025",
-  },
-];
