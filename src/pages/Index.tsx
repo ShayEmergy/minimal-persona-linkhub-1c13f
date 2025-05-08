@@ -21,6 +21,15 @@ const Index = () => {
         
         <div className="border-t border-border">
           <ContentSection 
+            title="Audio" 
+            type="audio" 
+            items={audio} 
+            id="audio"
+          />
+        </div>
+
+        <div className="border-t border-border">
+          <ContentSection 
             title="Writing" 
             type="blog" 
             items={writing} 
@@ -28,14 +37,6 @@ const Index = () => {
           />
         </div>
         
-        <div className="border-t border-border">
-          <ContentSection 
-            title="Audio" 
-            type="audio" 
-            items={audio} 
-            id="audio"
-          />
-        </div>
         
         <footer className="py-12 px-4 text-center text-sm text-muted-foreground">
           <p>© {new Date().getFullYear()} Lior Lieberman. All rights reserved.</p>

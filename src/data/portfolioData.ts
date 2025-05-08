@@ -17,7 +17,7 @@ export interface ProfileData {
 export const profileData: ProfileData = {
   name: "Lior Lieberman",
   title: "Software Engineering Lead",
-  bio: "Hey, I'm Lior, an experienced engineering lead specializing in Kubernetes and Cloud Native platforms. I lead initiatives across AI, networking, and security to build reliable, scalable systems. Alongside my technical work, I mentor startups and development teams worldwide, providing them advice in R&D growth, platform scalability, and optimized cloud infrastructure. I am passionate about entrepreneurship, leadership and development initiatives and get inspired by working with talented people. This is the central hub for some of the work I've written, presented, or been interviewed for",
+  bio: "Hey, I'm Lior, an experienced engineering lead specializing in Kubernetes and Cloud Native platforms. I lead initiatives across AI, networking, and security to build reliable, scalable systems. Alongside my technical work, I mentor startups and development teams worldwide, providing them advice in R&D growth, platform scalability, and optimized cloud infrastructure. I am passionate about entrepreneurship, leadership and development initiatives and get inspired by working with talented people. This is the central hub for some of the work I've written, presented, or been interviewed for.",
   avatarUrl: "/lovable-uploads/bc3389a1-5510-49ef-8f13-5db134e519f1.png",
 };
 
