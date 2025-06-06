@@ -8,7 +8,7 @@ import { Briefcase } from "lucide-react";
 
 const Index = () => {
   const professionalActivities = [
-    "Program committee: KubeCon & CloudNativeCon London, KubeCon & CloudNativeCon Japan, KubeCon & CloudNativeCon China, PlatforMa IL)",
+    "Program committee:\n\t- KubeCon & CloudNativeCon London\n- KubeCon & CloudNativeCon Japan\n- KubeCon & CloudNativeCon China\n- PlatforMa IL)",
     "CNCF Ambassador",
     "BCS Fellow"
   ];
@@ -35,7 +35,7 @@ const Index = () => {
             id="audio"
           />
         </div>
-
+\
         <div className="border-t border-border">
           <ContentSection 
             title="Writing" 
