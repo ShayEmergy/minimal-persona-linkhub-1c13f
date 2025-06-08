@@ -35,7 +35,7 @@ const Index = () => {
             id="audio"
           />
         </div>
-\
+
         <div className="border-t border-border">
           <ContentSection 
             title="Writing" 
