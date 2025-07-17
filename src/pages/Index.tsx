@@ -8,9 +8,13 @@ import { Briefcase } from "lucide-react";
 
 const Index = () => {
   const professionalActivities = [
-    "Program committee: (KubeCon & CloudNativeCon London, KubeCon & CloudNativeCon Japan, KubeCon & CloudNativeCon China, PlatforMa IL)",
-    "CNCF Ambassador",
-    "BCS Fellow"
+    "Fellow at British Computer Society (BCS)",
+    "Ambassador at Cloud Native Computing Foundation",
+    "Program Committee Member, KubeCon & CloudNativeCon London"
+    "Program Committee Member, Istio Day Europe"
+    "Program Committee Member, KubeCon & CloudNativeCon Japan",
+    "Program Committee Member, KubeCon & CloudNativeCon China",
+    "Program Committee Member, PlatforMa IL"
   ];
 
   return (
