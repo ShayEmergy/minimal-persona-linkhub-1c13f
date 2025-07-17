@@ -10,8 +10,8 @@ const Index = () => {
   const professionalActivities = [
     "Fellow at British Computer Society (BCS)",
     "Ambassador at Cloud Native Computing Foundation",
-    "Program Committee Member, KubeCon & CloudNativeCon Europe, London, UK"
-    "Program Committee Member, Istio Day North America, Atlanta, GA"
+    "Program Committee Member, KubeCon & CloudNativeCon Europe, London, UK",
+    "Program Committee Member, Istio Day North America, Atlanta, GA",
     "Program Committee Member, KubeCon & CloudNativeCon Japan, Tokyo",
     "Program Committee Member, KubeCon & CloudNativeCon China, Hong Kong",
     "Program Committee Member, PlatforMa IL"
