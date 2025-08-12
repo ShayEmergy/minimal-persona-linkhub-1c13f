@@ -104,6 +104,12 @@ export const audio: ContentItem[] = [
 
 export const writing: ContentItem[] = [
   {
+    id: "post-3",
+    title: "Bringing AI-Aware Traffic Management to Istio: Gateway API Inference Extension Support",
+    url: "https://istio.io/latest/blog/2025/inference-extension-support/",
+    date: "July 2025",
+  },
+  {
     id: "post-1",
     title: "Introducing ingress2gateway; Simplifying Upgrades to Gateway API",
     url: "https://kubernetes.io/blog/2023/10/25/introducing-ingress2gateway/",
